@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/inicio"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_personalidad"
+            android:icon="@drawable/personality"
+            android:title="Analisis de Personalidad" />
+        <item
+            android:id="@+id/nav_tweets"
+            android:icon="@drawable/twitter"
+            android:title="Analisis de Tweets" />
+        <item
+            android:id="@+id/nav_debate"
+            android:icon="@drawable/debate"
+            android:title="Analisis de Primer Debate" />
+        <item
+            android:id="@+id/nav_consumo"
+            android:icon="@drawable/consumo"
+            android:title="Preferencias de consumo" />
+    </group>
+
+</menu>
